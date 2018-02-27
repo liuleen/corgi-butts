@@ -1,8 +1,3 @@
-# class OrderItem < ApplicationRecord
-#   belongs_to :product
-#   belongs_to :order
-# end
-
 class OrderItem < ActiveRecord::Base
   belongs_to :product
   belongs_to :order
